@@ -6,7 +6,7 @@
     "price": 9299.99,
     "thumbnail": "Iphone16.jpg",
     "code": "P001",
-    "stock": 3
+    "stock": 1000
   },
   {
     "id": 2,
@@ -25,5 +25,23 @@
     "thumbnail": "BananaBoat.jpg",
     "code": "P003",
     "stock": 1
+  },
+  {
+    "id": 1,
+    "title": "Neosoro 100ml",
+    "description": "Paçoquinha de amendoim no formato de rolha para comer, uai...",
+    "price": 0.8,
+    "thumbnail": "image5.jpeg",
+    "code": "P004",
+    "stock": 100
+  },
+  {
+    "id": 1,
+    "title": "Webcam Kross, Full HD 1080P",
+    "description": "Faça suas vídeo chamadas ou grave seus conteúdos com a Webcam KROSS Elegance. Com qualidade HD de 1080p, foco manual e correção avançada de luz, você terá imagens nítidas e precisas. Conexão USB plug-and-play para PC ou Mac. Campo de visão de 360 graus: veja mais em widescreen real sem precisar reposicionar a câmera. Microfones omnidirecionais integrados: microfones estéreo para captação de voz nítida. Obturador de privacidade conveniente: fechamento fácil da lente para maior privacidade e segurança. Múltiplas opções de montagem: Rosca de clipe e tripé integrada para fácil montagem em monitores LCD, laptops e mesas. Acompanha tripé ajustável e capa para lente.",
+    "price": 69.99,
+    "thumbnail": "image6.jpeg",
+    "code": "P005",
+    "stock": 20
   }
 ]

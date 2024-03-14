@@ -1,0 +1,14 @@
+{
+  "name": "productmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Atividade_aula4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Oliveira Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

@@ -1,8 +1,6 @@
-let readline = require('readline')
 const fs = require("fs");
 const crypto = require("crypto");
 const { isUtf8 } = require("buffer");
-const { Module } = require('module');
 
 class ProductManager {
   constructor(jsonfFilePath = "products.json") {
