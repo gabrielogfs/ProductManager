@@ -4,7 +4,7 @@ const crypto = require("crypto");
 const { isUtf8 } = require("buffer");
 
 class ProductManager {
-  constructor() {
+  constructor(jsonfFilePath = "products.json") {
     this.products = [];
     this.currentId = 1;
     this.loadProducts();
@@ -167,9 +167,12 @@ class ProductManager {
   }
 }
 
+// **** Gabriel, se quiser usar as funções em outro json é só especificar um caminho diferente como abaixo:
+// const productManager = new ProductManager('caminho/arquivo.json');
+
 // ********* Exemplos de uso, basta descomentar:
 
-const productManager = new ProductManager();
+const productManager = new ProductManager('products.json');
 
   productManager.addProduct(
     "Apple iPhone 16 248 GB - Preto",
@@ -181,13 +184,9 @@ const productManager = new ProductManager();
   );
 
   // productManager.getProductById(2)
-  // productManager.removeProduct("P001");
+  productManager.removeProduct("P004");
   // productManager.updateStock("P003", 8);
   // productManager.updateTitle("P002", "Iphone 14 64GB - Meia-noite")
-
-
-
-
 
 
 // ************** O código abaixo está em desenvolvimento, por gentileza desconsiderar
